@@ -30,6 +30,8 @@
 
 .border {
     border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 3px;
 }
 
 .border:hover {
@@ -111,7 +113,7 @@ input {
 }
 
 .acc-first {
-    font-size: 12px;
+    font-size: 0.8rem;
     margin-left: 4px;
 }
 
@@ -119,31 +121,31 @@ input {
     color: #ffff;
     border: none;
     background-color: #0f1111;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .order {
     color: #ffff;
-    margin-left: 15px;
+    margin-left: 13px;
 
 }
 
 .return {
-    font-size: 12px;
+    font-size: 0.8rem;
 }
 
 .order-2 {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .cart {
     color: #ffff;
     display: flex;
-    margin-left: 15px;
+    margin-left: 13px;
 }
 
 .cart-text {
-    font-size: 16px;
+    font-size: 1.2rem;
     align-self: flex-end;
 }
 
@@ -153,7 +155,7 @@ input {
 
 .details {
     height: 39px;
-    background-color: #152a3af7;
+    background-color: rgb(35,47,62);
     color: #ffff;
     display: flex;
     align-items: center;
@@ -167,7 +169,12 @@ input {
     display: flex;
     margin-left: 15px;
     gap: 6px;
-    font-size: 14px;
+    font-size: 1rem;
+}
+.home{
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 ul{
     display: flex;
@@ -186,5 +193,42 @@ a{
     background-color: #11121300;
     border: none;
     color: #ffff;
-    font-size: 19px;
+    font-size: 1.5rem;
+}
+
+.content-img{
+    height: 600px;
+    width: 100%;
+
+}
+.hero-img{
+    background-image: url(assets/HERO_img.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.alert{
+    
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.alert-text{
+    font-size: 0.9rem;
+    margin-top: 250px;
+    margin-left: 30px;
+    padding-top: 10px;
+    width: 1460px;
+    height: 30px;
+    background-color: #f5f6f6;
+    align-items: center;
+    
+}
+.alert-text a{
+    color: #007185;
+}
+.product{
+    width: 350px;
+    height: 420px;
+    border: 2px solid black;
 }
