@@ -126,7 +126,7 @@ input {
 
 .order {
     color: #ffff;
-    margin-left: 13px;
+    margin-left: 10px;
 
 }
 
@@ -141,7 +141,7 @@ input {
 .cart {
     color: #ffff;
     display: flex;
-    margin-left: 13px;
+    margin-left: 10px;
 }
 
 .cart-text {
@@ -264,11 +264,65 @@ a{
     color: #0f1111;
     margin-left: 10px;
 }
+.gaming a{
+    text-decoration: none;
+    color:#007185;
+}
+.mouse p{
+    margin-top: 30px;
+}
 .box{
     width: 350px;
     height: 420px;
-    border: 2px solid black;
+    border:none;
     background-color:rgb(255, 255, 255);
 
+
+}
+.shop-title{
+    font-size: 1.5rem;
+    margin-left: 5px;
+}
+.first-pro2{
+    position: relative;
+    right: 1px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+.sec-pro2{
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-around;
+}
+.shop h5{
+    color: #0f1111;
+    margin-left: 10px;
+}
+.shop a{
+    text-decoration: none;
+    color:#007185;
+}
+.Dresses p{
+    margin-top: 30px;
+}
+.refresh h5{
+    color: #0f1111;
+    margin-left: 10px;
+}
+.refresh a{
+    text-decoration: none;
+    color:#007185;
+}
+.Kitchen p{
+    margin-top: 30px;
+}
+.pc a{
+    text-decoration: none;
+    color:#007185;
+}
+.p1{
+    margin-top: 30px;
 
 }
