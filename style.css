@@ -468,7 +468,7 @@ footer{
     justify-content: space-evenly;
     position: relative;
     top: 730px;
-    height: 350px;
+    height: 355px;
     background-color: rgb(35,47,62);
 }
 
@@ -492,4 +492,64 @@ footer{
     margin-top: 10px;
     list-style: none;
     font-size: 14px;
+}
+.footer-end{
+    position: relative;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    top: 731px;
+    height: 78px;
+    background-color: rgb(35,47,62);
+}
+.logo-a{
+    width:80px;
+   height:38px;
+   display: flex;
+   align-items: center;
+   color: white;
+}
+#globe {
+   position: relative;
+   
+}
+.info {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.info li{
+    list-style: none;
+    gap: 20px;
+    padding: 10px;
+    
+}
+.info li:hover{
+    border: 2px solid white;
+}
+.lang-2{
+    position: relative;
+    border: none;
+    background-color:rgb(35,47,62) ;
+    color: white;
+ 
+    
+}
+.lang-2:hover{
+    border: 2px solid white;
+}
+#en{
+    background-color:rgb(35,47,62) ;
+    color: white;
+
+}
+#usd{
+    width: 90px;
+    position: relative;
+    left: 90px;
+    text-align: center;
+}
+#flag{
+display: inline-block;
 }
