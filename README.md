@@ -22,4 +22,4 @@ Welcome to my Amazon clone website! This project is a front-end clone of the pop
 For any questions or suggestions, please contact me at:
 
 Email:<a href="mailto:pratikjadhav6632@gmail.com">pratikjadhav6632@gmail.com</a> <br>
-GitHub: <a href="https://github.com/Developerpratikjadhav">Developerpratikjadhav</a>
+GitHub: <a href="https://github.com/DevloperPratikjadhav">Developerpratikjadhav</a>
