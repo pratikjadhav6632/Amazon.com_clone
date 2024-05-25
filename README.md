@@ -3,7 +3,7 @@ Welcome to my Amazon clone website! This project is a front-end clone of the pop
 
 <h1> Demo</h1>
 <video controls>
-  <source src="path-to-demo-video.mp4" type="video/mp4">
+  <source src="Amazon-clone_demo.mp4" type="video/mp4">
   
 </video>
 <h1>Installation Steps</h1>
