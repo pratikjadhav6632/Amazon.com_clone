@@ -21,5 +21,5 @@ Welcome to my Amazon clone website! This project is a front-end clone of the pop
 <h1>Contact_Info</h1>
 For any questions or suggestions, please contact me at:
 
-Email: your-pratikjadhav6632@gmail.com <br>
+Email:<a href="mailto:pratikjadhav6632@gmail.com">pratikjadhav6632@gmail.com</a> <br>
 GitHub: <a href="https://github.com/Developerpratikjadhav">Developerpratikjadhav</a>
