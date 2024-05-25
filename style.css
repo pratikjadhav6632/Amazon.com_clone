@@ -176,7 +176,7 @@ input {
     align-items: center;
     gap: 5px;
 }
-ul{
+.home-l{
     display: flex;
     gap:15px;
 }
@@ -204,8 +204,10 @@ a{
 .hero-img{
     background-image: url(assets/HERO_img.jpg);
     background-size: cover;
+    position: absolute;
     height: 100%;
     width: 100%;
+    z-index: 1;
 }
 .alert{
     
@@ -229,12 +231,13 @@ a{
 }
 .products{
     display: flex;
+    background-color: rgb(227,230,230);
     justify-content: space-evenly;
     position: absolute;
     top: 400px;
     width: 100%;
     height: 900px;
-    border: 2px solid black;
+    border:none;
     padding:15px
 }
 .gaming{
@@ -242,12 +245,13 @@ a{
     width: 350px;
     height: 420px;
     background-color:rgb(255, 255, 255);
-  
+    z-index: 1;
 
 }
 .gaming-title{
     font-size: 1.5rem;
     margin-left: 5px;
+    margin-top: 20px;
 }
 .first-pro{
     position: relative;
@@ -273,15 +277,26 @@ a{
 }
 .box{
     width: 350px;
-    height: 420px;
+    height: 450px;
     border:none;
     background-color:rgb(255, 255, 255);
+    
 
 
+}
+.shop{
+    z-index: 1;
+}
+.refresh{
+    z-index: 1;
+}
+.pc{
+    z-index: 1;
 }
 .shop-title{
     font-size: 1.5rem;
     margin-left: 5px;
+    margin-top: 20px;
 }
 .first-pro2{
     position: relative;
@@ -325,4 +340,156 @@ a{
 .p1{
     margin-top: 30px;
 
+}
+.products-2{
+    background-color:rgb(227,230,230);
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 900px;
+    width: 100%;
+    height: 500px;
+    border:none;
+    padding:15px
+}
+.gadgets{
+   
+    border:none;
+    justify-content: space-evenly;
+}
+.first-pro-5{ position:relative;
+    top: 25px;
+
+}
+.sec-pro-5{
+    position:relative;
+    top: 35px;
+    right:5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.gadgets h5{
+    color: #0f1111;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.text a{
+    text-decoration: none;
+    color: #007185;
+}
+.text{
+  position: relative;
+  top: 80px;
+}
+.p-6 a{
+    color: #007185;
+}
+.p-6{
+    position: relative;
+    top: 12px;
+}
+.prototype{
+    margin-top: 50px;
+    margin-left: 46px;
+}
+.deal button{
+    display: inline;
+    font-size: 0.8rem;
+    background-color: rgb(204,12,57);
+    color: white;
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.deal-txt{
+    margin-left: 5px;
+    background-color: white;
+    font-size: 0.7rem;
+    font-weight:500;
+}
+.deal a{
+    color: rgb(204,12,57);
+  
+}
+.gifts h5{
+    color: #0f1111;
+}
+.h5-txt{
+    margin-top: 10px;
+    margin-left: 10px;
+  
+}
+.p-7 a{
+    color: #007185;
+}
+.p-7{
+    position: relative;
+    margin-top: 40px;
+}
+.trendy h5{
+    margin-top: 3px;
+    color: #0f1111;
+}
+.trendy a{
+    text-decoration: none;
+    color: #007185;
+}
+.trendyp{
+    position: absolute;
+    top: 0px;
+}
+footer{
+    height: 500px;
+    background-color: #0f1111;
+  
+}
+.btn-back{
+    color: #0f1111;
+}
+.footer-top{
+    position: relative;
+    top: 730px;
+    height: 10px;
+    padding:18px;
+    background-color: rgb(55,71,90);
+}
+.back-t{
+    text-decoration: none;
+    color: white;
+  
+    text-align: center;
+}
+.footer-top p{
+   text-align: center;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 730px;
+    height: 350px;
+    background-color: rgb(35,47,62);
+}
+
+.f{
+  
+    width: 230px;
+    height: 200px;
+    margin-top: 60px;
+}
+.f h2{
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+.f-l{
+  
+    display: table-cell;
+   
+}
+.f-l li{
+    margin-top: 10px;
+    list-style: none;
+    font-size: 14px;
 }
