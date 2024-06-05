@@ -2,6 +2,7 @@
 Welcome to my Amazon clone website! This project is a front-end clone of the popular e-commerce website, Amazon.com. It is built using HTML and CSS and is hosted on GitHub.
 
 <h1> Demo</h1>
+<a href="https://devloperpratikjadhav.github.io/Amazon.com_clone/">Click here.</a>
 <img src="assets/amazon_clone-demo.png">
 
 <h1>Installation Steps</h1>
