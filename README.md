@@ -1,5 +1,5 @@
 <h1>Introduction</h1>
-Welcome to my Amazon clone website! This project is a front-end clone of the popular e-commerce website, Amazon.com. It is built using HTML and CSS and is hosted on GitHub.
+Welcome to my Amazon clone website! This project is a front-end clone of the popular e-commerce website, Amazon.com. It is built using HTML and CSS and is hosted on GitHub ( Only for Desktops).
 
 <h1> Demo</h1>
 <a href="https://devloperpratikjadhav.github.io/Amazon.com_clone/">Click here.</a>
